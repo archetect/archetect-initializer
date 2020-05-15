@@ -5,4 +5,4 @@ entries:
       source: git@github.com:archetect/catalog-java.git
   - catalog:
       description: Rust
-      source: git@github.com:archetect/catalog_rust.git
+      source: git@github.com:archetect/catalog-rust.git
