@@ -6,3 +6,6 @@ entries:
   - catalog:
       description: Rust
       source: git@github.com:archetect/catalog-rust.git
+  - catalog:
+      description: NodeJS
+      source: git@github.com:archetect/catalog-nodejs.git
