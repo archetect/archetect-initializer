@@ -4,4 +4,4 @@ This will bootstraps your local configuration with answers for your name and ema
 
 Copy/paste the below:
 
-$> archetect render https://github.sie.sony.com/jfulton/archetect-initializer_navigator-eng.arch.git ~/.archetect/
+$> archetect render git@github.com:archetect/archetect-initializer.git ~/.archetect/
