@@ -1,0 +1,16 @@
+---
+answers:
+  author:
+    value: "{{ first_name | title_case }} {{ last_name | title_case }}"
+
+  author_full:
+    value: "{{ first_name | title_case }} {{ last_name | title_case }}"
+
+  author_email:
+    value: "{{ email }}"
+
+  author_long:
+    value: "{{ first_name | title_case }} {{ last_name | title_case }} <{{ email }}>"
+
+  author_short:
+    value: "{{ first_name | truncate(length=1, end='') | lower_case }}{{ last_name | lower_case }}"

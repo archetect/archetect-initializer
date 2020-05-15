@@ -1,0 +1,8 @@
+---
+entries:
+  - catalog:
+      description: Java
+      source: git@github.com:archetect/catalog_java.git
+  - catalog:
+      description: Rust
+      source: git@github.com:archetect/catalog_rust.git

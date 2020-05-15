@@ -1,0 +1,28 @@
+---
+script:
+  - if:
+      conditions:
+        - switch-enabled: overwrite
+      then:
+        - if:
+            conditions:
+              - any-of:
+                - path-exists: "etc/answers.yml"
+                - path-exists: "etc/catalog.yml"
+            then:
+              - warn: "Overwriting Configuration!"
+        - rules:
+            - destination:
+                overwrite: true
+
+  - set:
+      first_name:
+        prompt: "What is your first name?"
+      last_name:
+        prompt: "What is your last name?"
+      email:
+        prompt: "What is your email address?"
+
+  - render:
+      directory:
+        source: "contents"
