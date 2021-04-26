@@ -1,11 +1,17 @@
 ---
 entries:
   - catalog:
+      description: Archetect Catalog
+      source: https://github.com/archetect/catalog-archetect.git
+  - catalog:
       description: Java
-      source: git@github.com:archetect/catalog-java.git
+      source: https://github.com/archetect/catalog-java.git
   - catalog:
       description: Rust
-      source: git@github.com:archetect/catalog-rust.git
+      source: https://github.com/archetect/catalog-rust.git
   - catalog:
       description: NodeJS
-      source: git@github.com:archetect/catalog-nodejs.git
+      source: https://github.com/archetect/catalog-nodejs.git
+  - catalog:
+      description: Go
+      source: https://github.com/archetect/catalog-go.git

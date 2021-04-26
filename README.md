@@ -4,4 +4,4 @@ This will bootstraps your local configuration with answers for your name and ema
 
 Copy/paste the below:
 
-    $> archetect render git@github.com:archetect/archetect-initializer.git ~/.archetect/
+    $> archetect render https://github.com/archetect/archetect-initializer.git ~/.archetect/
